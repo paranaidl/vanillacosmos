@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solar Craft</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="VanillaCosmos" />
+    <meta property="og:title" content="VanillaCosmos Metaverse" />
+    <meta
+      property="og:description"
+      content="바닐라코스모스는 프로젝트 테스트 사이트입니다."
+    />
+    <meta property="og:image" content="./images/vanillacosmos_seo.jpg" />
+    <meta property="og:url" content="https://VanillaCosmos.com" />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="VanillaCosmos" />
+    <meta property="twitter:title" content="VanillaCosmos Metaverse" />
+    <meta
+      property="twitter:description"
+      content="바닐라코스모스는 프로젝트 테스트 사이트입니다."
+    />
+    <meta property="twitter:image" content="./images/vanillacosmos_seo.jpg" />
+    <meta property="twitter:url" content="https://VanillaCosmos.com" />
+
+    <link rel="icon" href="/images/favicon.png" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/solarcraft.css" />
+    <script type="module" defer src="/js/header.js"></script>
+    <script type="module" defer src="/js/footer.js"></script>
+  </head>
+  <body>
+    <body>
+      <main-header></main-header>
+      <canvas id="c"></canvas>
+      <script  type="importmap">{
+        "imports": {
+          "three": "https://threejs.org/build/three.module.js"
+        }
+      }</script><!-- Remove this when import maps will be widely supported -->
+      <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>      <main-footer></main-footer>
+      <script type="module" defer src="/js/canvas1.js"></script>
+    </body>
+</html>
